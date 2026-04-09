@@ -1,0 +1,146 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\kotte\\OneDrive\\Documents\\pmss']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11488] using WatchFiles
+INFO:     Started server process [28884]
+INFO:     Waiting for application startup.
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:42:16 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+15:42:16 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'simulator\sensor_simulator.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+15:43:22 \u2502 pmss                 \u2502 INFO    \u2502 PMSS Backend shutting down.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28884]
+INFO:     Started server process [23376]
+INFO:     Waiting for application startup.
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:43:24 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+15:43:24 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend\services\sensor_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+15:52:14 \u2502 pmss                 \u2502 INFO    \u2502 PMSS Backend shutting down.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23376]
+WARNING:  WatchFiles detected changes in 'backend\services\sensor_service.py'. Reloading...
+INFO:     Started server process [7668]
+INFO:     Waiting for application startup.
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:52:20 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+15:52:20 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kotte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\kotte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [11328]
+INFO:     Waiting for application startup.
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+15:52:23 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+15:52:23 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'simulator\sensor_simulator.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+16:06:04 \u2502 pmss                 \u2502 INFO    \u2502 PMSS Backend shutting down.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11328]
+WARNING:  WatchFiles detected changes in 'backend\services\sensor_service.py'. Reloading...
+INFO:     Started server process [16432]
+INFO:     Waiting for application startup.
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+16:06:07 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+16:06:07 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kotte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 700, in lifespan
+    await receive()
+  File "C:\Users\kotte\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [21728]
+INFO:     Waiting for application startup.
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502   PMSS Backend Starting...
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502   ML Engine: LightGBM Gradient Boosting
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502   Supabase: https://cuxgeclvtnacycmrvwrl.supabase.co...
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502 ============================================================
+16:06:09 \u2502 pmss.ml              \u2502 INFO    \u2502 Loaded pre-trained model (accuracy: 89.80%, samples: 5000)
+16:06:09 \u2502 pmss                 \u2502 INFO    \u2502 Model ready: LightGBM | Accuracy: 89.80% | Features: 72
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend\services\sensor_service.py'. Reloading...

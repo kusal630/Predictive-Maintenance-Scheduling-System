@@ -1,0 +1,261 @@
+
+> pmss-dashboard@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.0 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+- Environments: .env.local
+✓ Ready in 1543ms
+Creating turbopack project { dir: 'C:\\Users\\kotte\\Downloads\\pmss_opencode', testMode: true }
+
+
+[2m[349.11ms][22m [@tailwindcss/postcss] app\globals.css
+[2m[  0.23ms][22m  [2m ↳ [22mQuick bail check
+[2m[ 76.85ms][22m  [2m ↳ [22mSetup compiler
+[2m[  1.01ms][22m    [2m ↳ [22mPostCSS AST -> Tailwind CSS AST
+[2m[ 75.79ms][22m    [2m ↳ [22mCreate compiler
+[2m[  0.87ms][22m  [2m ↳ [22mRegister full rebuild paths
+[2m[ 17.43ms][22m  [2m ↳ [22mSetup scanner
+[2m[107.43ms][22m  [2m ↳ [22mScan for candidates
+[2m[ 24.29ms][22m  [2m ↳ [22mRegister dependency messages
+[2m[103.67ms][22m  [2m ↳ [22mBuild utilities
+[2m[ 10.48ms][22m  [2m ↳ [22mTransform Tailwind CSS AST into PostCSS AST
+[2m[  6.82ms][22m  [2m ↳ [22mUpdate PostCSS AST
+
+ GET / 200 in 1009ms (next.js: 351ms, application-code: 658ms)
+ GET / 200 in 764ms (next.js: 27ms, application-code: 737ms)
+ GET / 200 in 577ms (next.js: 24ms, application-code: 553ms)
+ GET /api/app-state?t=1775665025924 200 in 2.9s (next.js: 251ms, application-code: 2.7s)
+ GET /api/app-state?t=1775665025970 200 in 14.0s (next.js: 307ms, application-code: 13.7s)
+ GET /api/sensors/chart?limit=30&t=1775665040521 200 in 655ms (next.js: 93ms, application-code: 562ms)
+ GET /api/sensors/chart?limit=30&t=1775665040532 200 in 977ms (next.js: 6ms, application-code: 971ms)
+ GET /api/sensors/chart?limit=30&t=1775665041383 200 in 926ms (next.js: 7ms, application-code: 920ms)
+ GET /api/app-state?t=1775665042025 200 in 4.0s (next.js: 9ms, application-code: 3.9s)
+ GET /api/sensors/chart?limit=30&t=1775665047992 200 in 558ms (next.js: 21ms, application-code: 537ms)
+ GET /api/app-state?t=1775665049991 200 in 3.4s (next.js: 10ms, application-code: 3.4s)
+ GET /api/sensors/chart?limit=30&t=1775665052997 200 in 759ms (next.js: 9ms, application-code: 749ms)
+ GET /api/sensors/chart?limit=30&t=1775665058001 200 in 542ms (next.js: 11ms, application-code: 531ms)
+ GET /api/app-state?t=1775665058005 200 in 3.2s (next.js: 15ms, application-code: 3.2s)
+ GET /api/sensors/chart?limit=30&t=1775665062994 200 in 430ms (next.js: 8ms, application-code: 422ms)
+ GET /api/app-state?t=1775665066003 200 in 4.2s (next.js: 15ms, application-code: 4.2s)
+ GET /api/sensors/chart?limit=30&t=1775665068000 200 in 2.5s (next.js: 7ms, application-code: 2.5s)
+ GET /api/sensors/chart?limit=30&t=1775665073004 200 in 619ms (next.js: 6ms, application-code: 612ms)
+ GET /api/app-state?t=1775665074011 200 in 4.5s (next.js: 9ms, application-code: 4.5s)
+ GET /api/sensors/chart?limit=30&t=1775665077906 200 in 1263ms (next.js: 8ms, application-code: 1255ms)
+ GET /api/app-state?t=1775665081972 200 in 3.1s (next.js: 5ms, application-code: 3.1s)
+ GET /predictions 200 in 490ms (next.js: 122ms, application-code: 369ms)
+ GET /api/sensors/chart?limit=30&t=1775665082325 200 in 3.3s (next.js: 5ms, application-code: 3.3s)
+ GET /api/app-state?t=1775665089971 200 in 3.9s (next.js: 11ms, application-code: 3.8s)
+ GET /api/app-state?t=1775665097976 200 in 3.3s (next.js: 6ms, application-code: 3.3s)
+ GET / 200 in 72ms (next.js: 8ms, application-code: 63ms)
+ GET /api/app-state?t=1775665105975 200 in 3.2s (next.js: 9ms, application-code: 3.2s)
+ GET /api/sensors/chart?limit=30&t=1775665108344 200 in 1223ms (next.js: 21ms, application-code: 1202ms)
+ GET /api/sensors/chart?limit=30&t=1775665108343 200 in 1615ms (next.js: 10ms, application-code: 1605ms)
+ GET /api/sensors/chart?limit=30&t=1775665109636 200 in 764ms (next.js: 5ms, application-code: 760ms)
+ GET /api/app-state?t=1775665113975 200 in 3.2s (next.js: 12ms, application-code: 3.2s)
+ GET /api/sensors/chart?limit=30&t=1775665115412 200 in 2.3s (next.js: 7ms, application-code: 2.3s)
+ GET /api/sensors/chart?limit=30&t=1775665120415 200 in 862ms (next.js: 7ms, application-code: 854ms)
+ GET /api/app-state?t=1775665121973 200 in 3.5s (next.js: 7ms, application-code: 3.4s)
+ GET /api/sensors/chart?limit=30&t=1775665125423 200 in 619ms (next.js: 5ms, application-code: 614ms)
+ GET /api/app-state?t=1775665129971 200 in 3.3s (next.js: 4ms, application-code: 3.3s)
+ GET /api/sensors/chart?limit=30&t=1775665130416 200 in 3.2s (next.js: 7ms, application-code: 3.1s)
+ GET /api/sensors/chart?limit=30&t=1775665135415 200 in 483ms (next.js: 8ms, application-code: 475ms)
+ GET /api/app-state?t=1775665137978 200 in 3.7s (next.js: 8ms, application-code: 3.7s)
+ GET /api/sensors/chart?limit=30&t=1775665140416 200 in 1709ms (next.js: 8ms, application-code: 1701ms)
+ GET /api/sensors/chart?limit=30&t=1775665145414 200 in 485ms (next.js: 11ms, application-code: 474ms)
+ GET /api/app-state?t=1775665145977 200 in 3.2s (next.js: 15ms, application-code: 3.2s)
+ GET /api/sensors/chart?limit=30&t=1775665150413 200 in 631ms (next.js: 5ms, application-code: 625ms)
+ GET /api/app-state?t=1775665153975 200 in 3.9s (next.js: 8ms, application-code: 3.8s)
+ GET /api/sensors/chart?limit=30&t=1775665155412 200 in 2.6s (next.js: 13ms, application-code: 2.6s)
+ GET /api/sensors/chart?limit=30&t=1775665160413 200 in 724ms (next.js: 34ms, application-code: 690ms)
+ GET /api/app-state?t=1775665161971 200 in 3.6s (next.js: 5ms, application-code: 3.6s)
+ GET /api/sensors/chart?limit=30&t=1775665165412 200 in 957ms (next.js: 16ms, application-code: 941ms)
+ GET /api/app-state?t=1775665169973 200 in 3.4s (next.js: 6ms, application-code: 3.4s)
+ GET /api/sensors/chart?limit=30&t=1775665170993 200 in 2.7s (next.js: 10ms, application-code: 2.7s)
+ GET /api/sensors/chart?limit=30&t=1775665175416 200 in 648ms (next.js: 15ms, application-code: 634ms)
+ GET /api/app-state?t=1775665177971 200 in 3.1s (next.js: 12ms, application-code: 3.1s)
+ GET /api/sensors/chart?limit=30&t=1775665180411 200 in 1130ms (next.js: 23ms, application-code: 1107ms)
+ GET /api/sensors/chart?limit=30&t=1775665185415 200 in 622ms (next.js: 4ms, application-code: 618ms)
+ GET /activity 200 in 471ms (next.js: 396ms, application-code: 75ms)
+ GET /api/app-state?t=1775665185971 200 in 3.9s (next.js: 14ms, application-code: 3.9s)
+ GET /api/app-state?t=1775665194000 200 in 3.4s (next.js: 40ms, application-code: 3.4s)
+ GET /api/app-state?t=1775665202025 200 in 7.8s (next.js: 26ms, application-code: 7.7s)
+ GET /api/app-state?t=1775665210004 200 in 4.2s (next.js: 23ms, application-code: 4.2s)
+ GET /predictions 200 in 104ms (next.js: 10ms, application-code: 94ms)
+ GET / 200 in 89ms (next.js: 12ms, application-code: 77ms)
+App state fetch error: [Error [TimeoutError]: The operation was aborted due to timeout] {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+ GET /api/app-state?t=1775665217993 200 in 30.0s (next.js: 4ms, application-code: 30.0s)
+ GET /predictions 200 in 146ms (next.js: 11ms, application-code: 135ms)
+ GET /api/sensors/chart?limit=30&t=1775665246697 200 in 12.1s (next.js: 5ms, application-code: 12.1s)
+ GET /api/sensors/chart?limit=30&t=1775665246694 200 in 12.8s (next.js: 7ms, application-code: 12.8s)
+ GET /api/app-state?t=1775665249972 200 in 9.7s (next.js: 5ms, application-code: 9.7s)
+ GET /predictions 200 in 500ms (next.js: 14ms, application-code: 486ms)
+ GET /api/app-state?t=1775665266004 200 in 15.8s (next.js: 23ms, application-code: 15.8s)
+App state fetch error: [Error [TimeoutError]: The operation was aborted due to timeout] {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+ GET /api/app-state?t=1775665282700 200 in 14.4s (next.js: 11ms, application-code: 14.4s)
+ GET /api/app-state?t=1775665299005 200 in 189ms (next.js: 24ms, application-code: 165ms)
+ GET /api/app-state?t=1775665306997 200 in 4.0s (next.js: 10ms, application-code: 4.0s)
+ GET /api/app-state?t=1775665314990 200 in 3.6s (next.js: 8ms, application-code: 3.6s)
+ GET /api/app-state?t=1775665322708 200 in 3.5s (next.js: 8ms, application-code: 3.5s)
+ GET /api/app-state?t=1775665330704 200 in 3.3s (next.js: 6ms, application-code: 3.3s)
+ GET /api/app-state?t=1775665338706 200 in 4.0s (next.js: 7ms, application-code: 4.0s)
+ GET /api/app-state?t=1775665347044 200 in 3.3s (next.js: 9ms, application-code: 3.2s)
+ GET /equipment 200 in 173ms (next.js: 81ms, application-code: 91ms)
+ GET /activity 200 in 118ms (next.js: 8ms, application-code: 110ms)
+ GET /api/app-state?t=1775665354717 200 in 3.6s (next.js: 195ms, application-code: 3.4s)
+ GET /schedule 200 in 152ms (next.js: 81ms, application-code: 71ms)
+ GET /activity 200 in 170ms (next.js: 67ms, application-code: 103ms)
+ GET /api/app-state?t=1775665362701 200 in 3.2s (next.js: 5ms, application-code: 3.2s)
+ GET /technicians 200 in 170ms (next.js: 87ms, application-code: 83ms)
+ GET /api/app-state?t=1775665370701 200 in 2.8s (next.js: 4ms, application-code: 2.8s)
+ GET /api/app-state?t=1775665378706 200 in 4.2s (next.js: 6ms, application-code: 4.2s)
+ GET /inventory 200 in 175ms (next.js: 98ms, application-code: 77ms)
+ GET /api/app-state?t=1775665386995 200 in 4.9s (next.js: 9ms, application-code: 4.8s)
+ GET /api/app-state?t=1775665394704 200 in 5.4s (next.js: 7ms, application-code: 5.4s)
+ GET /api/app-state?t=1775665402703 200 in 3.6s (next.js: 19ms, application-code: 3.6s)
+ GET /api/app-state?t=1775665410711 200 in 3.8s (next.js: 8ms, application-code: 3.8s)
+ GET /locations 200 in 197ms (next.js: 120ms, application-code: 77ms)
+ GET /api/app-state?t=1775665418702 200 in 10.6s (next.js: 6ms, application-code: 10.6s)
+ GET /maintenance 200 in 181ms (next.js: 118ms, application-code: 63ms)
+ GET /equipment 200 in 68ms (next.js: 9ms, application-code: 60ms)
+ GET /api/app-state?t=1775665434705 200 in 7.1s (next.js: 4ms, application-code: 7.1s)
+ GET /api/app-state?t=1775665442704 200 in 3.3s (next.js: 6ms, application-code: 3.3s)
+ GET /api/app-state?t=1775665450703 200 in 5.3s (next.js: 8ms, application-code: 5.3s)
+ GET /api/app-state?t=1775665459005 200 in 5.1s (next.js: 7ms, application-code: 5.1s)
+ GET /api/app-state?t=1775665466990 200 in 4.3s (next.js: 94ms, application-code: 4.2s)
+ GET /api/app-state?t=1775665474997 200 in 3.0s (next.js: 6ms, application-code: 3.0s)
+ GET /api/app-state?t=1775665483013 200 in 6.5s (next.js: 7ms, application-code: 6.5s)
+ GET /api/app-state?t=1775665491001 200 in 3.5s (next.js: 15ms, application-code: 3.5s)
+ GET /api/app-state?t=1775665499014 200 in 3.7s (next.js: 11ms, application-code: 3.7s)
+ GET /api/app-state?t=1775665506994 200 in 4.3s (next.js: 10ms, application-code: 4.3s)
+ GET /api/app-state?t=1775665515099 200 in 3.6s (next.js: 29ms, application-code: 3.5s)
+ GET /maintenance 200 in 54ms (next.js: 6ms, application-code: 49ms)
+ GET /api/app-state?t=1775665522701 200 in 4.6s (next.js: 5ms, application-code: 4.6s)
+ GET /api/app-state?t=1775665530701 200 in 3.7s (next.js: 7ms, application-code: 3.7s)
+ GET /schedule 200 in 68ms (next.js: 8ms, application-code: 60ms)
+ GET /api/app-state?t=1775665538997 200 in 2.9s (next.js: 5ms, application-code: 2.9s)
+ GET /api/app-state?t=1775665546702 200 in 2.6s (next.js: 6ms, application-code: 2.6s)
+App state fetch error: [Error [TimeoutError]: The operation was aborted due to timeout] {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+ GET /api/app-state?t=1775665555004 200 in 30.1s (next.js: 9ms, application-code: 30.1s)
+ GET /api/app-state?t=1775665586990 200 in 5.1s (next.js: 6ms, application-code: 5.1s)
+ GET /api/app-state?t=1775665595118 200 in 3.1s (next.js: 6ms, application-code: 3.1s)
+ GET /api/app-state?t=1775665602995 200 in 3.0s (next.js: 24ms, application-code: 2.9s)
+ GET /api/app-state?t=1775665623075 200 in 3.4s (next.js: 8ms, application-code: 3.4s)
+ GET /api/app-state?t=1775665683003 200 in 7.2s (next.js: 6ms, application-code: 7.1s)
+ GET /api/app-state?t=1775665743042 200 in 3.3s (next.js: 10ms, application-code: 3.2s)
+ GET /api/app-state?t=1775665803006 200 in 9.6s (next.js: 8ms, application-code: 9.6s)
+ GET /api/app-state?t=1775665863001 200 in 5.9s (next.js: 13ms, application-code: 5.9s)
+App state fetch error: [Error [TimeoutError]: The operation was aborted due to timeout] {
+  code: 23,
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25
+}
+ GET /api/app-state?t=1775665923002 200 in 30.0s (next.js: 6ms, application-code: 30.0s)
+ GET /api/app-state?t=1775665983017 200 in 5.3s (next.js: 6ms, application-code: 5.3s)
+ GET /api/app-state?t=1775666042999 200 in 4.7s (next.js: 8ms, application-code: 4.7s)
+ GET /api/app-state?t=1775666103103 200 in 5.8s (next.js: 6ms, application-code: 5.8s)

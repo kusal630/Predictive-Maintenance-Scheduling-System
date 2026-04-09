@@ -1,0 +1,23 @@
+
+[2m[113.32ms][22m [@tailwindcss/postcss] app\globals.css
+[2m[  0.08ms][22m  [2m ↳ [22mQuick bail check
+[2m[ 32.18ms][22m  [2m ↳ [22mSetup compiler
+[2m[  0.61ms][22m    [2m ↳ [22mPostCSS AST -> Tailwind CSS AST
+[2m[ 31.54ms][22m    [2m ↳ [22mCreate compiler
+[2m[  0.12ms][22m  [2m ↳ [22mRegister full rebuild paths
+[2m[  1.27ms][22m  [2m ↳ [22mSetup scanner
+[2m[ 22.45ms][22m  [2m ↳ [22mScan for candidates
+[2m[  7.84ms][22m  [2m ↳ [22mRegister dependency messages
+[2m[ 39.25ms][22m  [2m ↳ [22mBuild utilities
+[2m[  6.77ms][22m  [2m ↳ [22mTransform Tailwind CSS AST into PostCSS AST
+[2m[  2.89ms][22m  [2m ↳ [22mUpdate PostCSS AST
+
+[browser] Dashboard fetch error: AbortError: signal is aborted without reason
+    at <unknown> (components/app-data-provider.tsx:34:53)
+  32 |     try {
+  33 |       const controller = new AbortController()
+> 34 |       const timeoutId = setTimeout(() => controller.abort(), 15000)
+     |                                                     ^
+  35 |       
+  36 |       const response = await fetch(`/api/app-state?t=${Date.now()}`, { 
+  37 |         cache: "no-store", (components/app-data-provider.tsx:49:15)

@@ -1,0 +1,25 @@
+▲ Next.js 16.2.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.116.120.207:3000
+- Environments: .env.local
+✓ Ready in 728ms
+Creating turbopack project { dir: 'C:\\Users\\kotte\\Downloads\\pmss_opencode', testMode: true }
+
+ GET /predictions 200 in 790ms (next.js: 228ms, application-code: 562ms)
+ GET / 200 in 84ms (next.js: 36ms, application-code: 49ms)
+ GET /api/app-state?t=1775293192823 200 in 10.2s (next.js: 96ms, application-code: 10.1s)
+ GET /api/sensors/chart?limit=30&t=1775293203043 200 in 417ms (next.js: 51ms, application-code: 366ms)
+ GET /api/sensors/chart?limit=30&t=1775293203044 200 in 754ms (next.js: 62ms, application-code: 693ms)
+ GET /api/sensors/chart?limit=30&t=1775293206045 200 in 386ms (next.js: 2ms, application-code: 384ms)
+ GET /api/sensors/chart?limit=30&t=1775293209045 503 in 5.0s (next.js: 4ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293213030 503 in 5.0s (next.js: 1907µs, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293216043 503 in 5.0s (next.js: 2ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293219041 503 in 5.0s (next.js: 3ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293222037 503 in 5.0s (next.js: 2ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293225040 503 in 5.0s (next.js: 1870µs, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293228032 503 in 5.0s (next.js: 3ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293230047 503 in 5.0s (next.js: 6ms, application-code: 5.0s)
+ GET /api/sensors/chart?limit=30&t=1775293233053 503 in 5.0s (next.js: 3ms, application-code: 5.0s)
+ GET /predictions 200 in 36ms (next.js: 5ms, application-code: 31ms)
+ GET /api/sensors/chart?limit=30&t=1775293236051 503 in 5.0s (next.js: 5ms, application-code: 5.0s)
+ GET /api/app-state?t=1775293250472 200 in 15.6s (next.js: 4ms, application-code: 15.6s)
